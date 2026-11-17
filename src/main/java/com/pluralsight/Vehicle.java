@@ -9,6 +9,14 @@ public class Vehicle {
     private int numberOfPassengers;
     private int cargoCapacity;
 
+    public Vehicle(String model, int topSpeed, String color, int fuelCapacity, int numberOfPassengers, int cargoCapacity) {
+        this.model = model;
+        this.topSpeed = topSpeed;
+        this.color = color;
+        this.fuelCapacity = fuelCapacity;
+        this.numberOfPassengers = numberOfPassengers;
+        this.cargoCapacity = cargoCapacity;
+    }
 
     public String getModel() {
         return model;
